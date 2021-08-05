@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+p {
+  font-family: serif;
+}
+
+.header{  margin: 0;
+
+  padding: 80px;
+  text-align: center;
+  background: #1ac400;
+  color: white;
+}
+
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  padding: 14px 20px;
+  text-align: center;
+  text-decoration: none;
+}
