@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 
-   <head>
-    <link rel="stylesheet" href="style.css">
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
 
   <body>
-    <div class="header">
+    <div id="home" class="header">
      <h1> All About Bugs </h1> <h3> People are afraid of bugs because they are different. But being different is a good thing. </h3>
     </div>
 
     <div class="navbar">
-      <a href="#">Home</a>
-      <a href="#">Fun Facts</a>
-      <a href="#">Articles</a>
-      <a href="#">Step up and save a bug</a>
+      <a href="#home">Home</a>
+      <a href="#facts">Fun Facts</a>
+      <a href="#article">Articles</a>
+      <a href="#bug">Step up and save a bug</a>
      
     </div>
 
@@ -30,39 +29,56 @@
         </h5>
         </div>
         
-        <p>
+        <p id="facts">
+        <h1>
           Fun Facts
+        </h1>
         </p>
         <li>
-        Largest beatle known is the Goiath Beatle.
+        Largest beetle known is the Goiath Beetle.
         </li>
+         <div>
+          <image src="https://inaturalist-open-data.s3.amazonaws.com/photos/49985125/small.jpeg?1567328919"/>
+        </div>
+        <div>
+          <image src="https://inaturalist-open-data.s3.amazonaws.com/photos/105493145/small.jpg?1606231326"/>
+        </div>
         <li>
-        Largest butterfly known is the Queen Alexandra's Birdwing
+        Largest butterfly known is the Queen Alexandra's Birdwing, a very rare butterfly that was first mistaken for a bird. The first people to see the butterfly shot it down.
         </li>
-        <h1>
+        <h1 id="article">
         ARTICLES
-        </h1> 
+        </h1>
         <h2>
         Article 1: Why are bugs important?
         </h2>
         <p>
        Bugs help us in many ways. Mantids eat those pesky flies that land on your food. There would be much less fruit in the world without bees and butterflies polinating. Bugs do things that greatly help us. Without bugs, we would not have that many reptiles, and the things that eat them. Without bugs, even we might not be here
         </p>
+         <div>
+          <image src="https://static.inaturalist.org/photos/148795423/small.jpeg?1628190598"/>
+        </div>
+        
         <br>
         
         <h2>
         Article 2: Save a bug!
         </h2>
-        <p>It is important to save bugs. Think of the Xerxes, the brilliant bluish-purple butterfly that went extinct. Can we bring it back? no. Then why are we killing them in the firt place? If we can't fix it, then why do we break it? When will we start fixing, not even dropping the plate in the fist place, instead? Start saving bugs. You can save them by:</p>
-        <li>
-        Planting flowers/making a garden.
-        </li>
-        <li>
-        Buy organic foods.
-        </li>
-        <li>
-        Try to raise bugs and possibly try to breed them!
-        </li>
+        <p>It is important to save bugs. Think of the Xerxes, the brilliant bluish-purple butterfly that went extinct. Can we bring it back? no. Then why are we killing them in the firt place? If we can't fix it, then why do we break it? When will we start fixing, not even dropping the plate in the fist place, instead? Start saving bugs. You can save them(look bellow.)</p>
+<div id="myDIV" class="header">
+  <h2 style="margin:5px" id="bug">Bug Saving List</h2>
+  <input type="text" id="myInput" placeholder="Title...">
+  <span onclick="newElement()" class="addBtn">Add</span>
+</div>
+
+<ul id="myUL">
+  <li>Beginner: Take notes on a wild bug you find.</li>
+  <li>Learner: Plant some flowers.</li>
+  <li>Junior: Plant milkweed for monarch caterpillars.</li>
+  <li>Senior: Keep a bug in a jar(Don't foget to add some SMALL holes in the top!)</li>
+  <li> Master: Breed a bug sucsessfuly.</li>
+</ul>
+
         <h1>
         COPYRIGHT 2021
         </h1>
