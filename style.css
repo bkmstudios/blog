@@ -9,6 +9,10 @@ p {
   font-family: serif;
 }
 
+.row {
+    padding: 5px;
+}
+
 .header{  margin: 0;
 
   padding: 80px;
